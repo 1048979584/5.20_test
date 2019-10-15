@@ -186,6 +186,34 @@ class CrackGeetest():
         submit.click()
         time.sleep(10)
         print('登录成功')
+        
+        
+    #补充方法    
+    def FindPic(target, template):
+
+    """
+
+    找出图像中最佳匹配位置即缺口位置
+
+    :param target: 目标即背景图
+
+    :param template: 滑块图
+
+    :return: 返回最佳匹配及其最差匹配和对应的坐标
+
+    """
+
+    target_rgb = cv2.imread(target)
+
+    target_gray = cv2.cvtColor(target_rgb, cv2.COLOR_BGR2GRAY)
+
+    template_rgb = cv2.imread(template, 0)
+
+    res = cv2.matchTemplate(target_gray, template_rgb, cv2.TM_CCOEFF_NORMED)
+
+    value = cv2.minMaxLoc(res)    
+        
+        
 
     def crack(self):
         #点击验证按钮
