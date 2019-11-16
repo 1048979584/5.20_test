@@ -1,0 +1,17 @@
+安装Virtualenv:             pip install Virtualenv
+创建虚拟环境：               virtualenv  pyweb  #pyweb为项目名
+启动虚拟环境：               cmd进入pyweb目录下的Scripts目录,输入activate
+
+####django常用命令####
+新建项目：                   django-admin.py startproject 项目名
+新建App:                    python manage.py startapp APP名
+启动：                       python manage.py runserver 8080
+
+同步或者更改数据库：
+python manage.py makemigrations
+python manage.py migrate
+
+清空数据库：                  python manage.py flush
+创建管理员：                  python manage.py createsuperuser
+修改用户密码：                python manage.py changepassword username
+django项目环境终端：          python manage.py shell
