@@ -12,3 +12,4 @@ https://github.com/Wesly-Yu/AutoZone
 
 #django
 https://www.django.cn/article/show-5.html
+https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/61/
