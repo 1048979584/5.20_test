@@ -16,3 +16,6 @@ https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/materials/61/
 
 #开源平台
 https://testerhome.com/
+
+#测试环境部署
+https://wenku.baidu.com/view/78a68718964bcf84b9d57bee.html?sxts=1573010382936
