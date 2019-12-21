@@ -22,3 +22,6 @@ https://wenku.baidu.com/view/78a68718964bcf84b9d57bee.html?sxts=1573010382936
 
 #django+IIS部署
 https://www.django.cn/article/show-21.html
+
+#部署实践资源
+https://github.com/HelloGitHub-Team/HelloDjango-blog-tutorial
