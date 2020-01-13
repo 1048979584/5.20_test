@@ -2,7 +2,7 @@ from appium import webdriver
 import time
 class AppiumTest:
     def appTest(self):
-        #配置连接appium的连接参数
+        #配置连接appium的连接参数的
         disred_caps={}                                               #定义webdriver的兼容性设置字典对象
         disred_caps['platformName']='Android'                        #指定测试平台
         disred_caps['platformVersion']='5.1.1'                       #指定移动端的版本号
@@ -14,7 +14,7 @@ class AppiumTest:
         #app_path=os.path.abspath('.')+\\xxx.apk                     #指定apk文件路径安装程序
         disred_caps['app']=app_path                                  #指定待测应用程序
         disred_caps['unicodeKeyboard']='True'                        #指定可输入中文
-        disred_caps['noReset']='True'                                #设置是否清空应用程序数据（执行完后卸载apk）
+        disred_caps['noReset']='True'                                  #设置是否清空应用程序数据（执行完后卸载apk）
 
 
         #实例化webdriver，并指定appium服务器访问地址，一定要加上，wd/hub
